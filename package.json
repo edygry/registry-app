@@ -1,0 +1,23 @@
+{
+  "name": "registry-app",
+  "version": "1.0.0",
+  "description": "Multi-Tenant Registry Application",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": ["registry", "multi-tenant", "vue"],
+  "author": "Ed Gray",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^3.5.33",
+    "vue-router": "^4.2.0",
+    "pinia": "^2.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.6",
+    "vite": "^8.0.10"
+  }
+}
